@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/consoles")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ConsoleController {
 
     @Autowired
